@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+        <div id="container">
+            <div id="controlsContainer">
+              <label for="numSlider">Grid Size. (10-80)<br><br></label>
+              <input type="range" id="sizeInput" min="10" max="80" value="24">
+              <p id="selectedValue">Selected Value: </p>
+              <input type="color" id="colorPicker" value="#333"><br>
+              <div id="btnContainer">
+                <button id="colorBtn" class="active" active>Color Mode</button><br>
+                <button id="rainbowBtn">Rainbow Mode</button><br>
+                <button id="grayscaleBtn">Grayscale</button><br>
+                <button id="eraserBtn">Eraser</button><br>
+                <button id="resetBtn">Reset</button><br>
+              </div>
+            </div>
+            <div id="gridContainer">
+                
+            </div>
+        </div> 
+    </main>
+  </body>
+</html>
